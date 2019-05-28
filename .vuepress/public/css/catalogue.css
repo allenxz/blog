@@ -1,0 +1,83 @@
+article,section,time,aside{display:block;}
+
+.point-time {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 17px;
+  left: 18%;
+  background: #1c87bf;
+  margin-left: -4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #fff;
+}
+
+.point-red {
+  background-color: #f6393f;
+}
+
+.point-blue {
+  background-color: #1c87bf;
+}
+
+.point-green {
+  background-color: #95c91e;
+}
+
+.point-yellow {
+  background-color: #ffb902;
+}
+
+.point-purple {
+  background-color: #d32d93;
+}
+.catalogue {
+  width: 80%;
+  margin: 0 auto 80px auto;
+}
+.catalogue article {
+  position: relative;
+}
+.catalogue article > h3 {
+  width: 15%;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 1.4em;
+  color: #1d1d1d;
+  padding: 10px 0 20px;
+}
+.catalogue article section {
+  padding: 0 0 17px;
+  position: relative;
+}
+.catalogue article section:before {
+  content: "";
+  width: 5px;
+  top: 17px;
+  bottom: -17px;
+  left: 18%;
+  background: #e6e6e6;
+  position: absolute;
+}
+.catalogue article section:last-child:before {
+  display: none;
+}
+.catalogue article section time {
+  width: 15%;
+  display: block;
+  position: absolute;
+}
+.catalogue article section time > span {
+  display: block;
+  text-align: right;
+  margin-top: 13px;
+}
+.catalogue article section aside {
+  position: relative;
+  top:12px;
+  color: #3a3a38;
+  margin-left: 25%;
+  padding-bottom: 15px;
+}
